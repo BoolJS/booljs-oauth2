@@ -1,0 +1,25 @@
+{
+  "name": "booljs-oauth2",
+  "version": "0.0.1",
+  "description": "OAuth2 middleware for bool.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booljs/booljs-oauth2.git"
+  },
+  "keywords": [
+    "booljs",
+    "oauth2",
+    "middleware",
+    "api"
+  ],
+  "author": "Pablo Andrés Dorado Suárez <pandres95@booljs.co>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/booljs/booljs-oauth2/issues"
+  },
+  "homepage": "https://github.com/booljs/booljs-oauth2#readme"
+}
