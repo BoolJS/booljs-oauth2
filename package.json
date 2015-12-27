@@ -23,7 +23,8 @@
   },
   "peerDependencies": {
     "oauth2orize": "^1.2.0",
-    "booljs-passport": "^0.0.2"
+    "booljs-passport": "^0.0.2",
+    "passport-oauth2-client-password": "^0.1.2"
   },
   "homepage": "https://github.com/booljs/booljs-oauth2#readme",
   "devDependencies": {
