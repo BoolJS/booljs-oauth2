@@ -21,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/booljs/booljs-oauth2/issues"
   },
-  "homepage": "https://github.com/booljs/booljs-oauth2#readme"
+  "peerDependencies": {
+    "oauth2orize": "^1.2.0",
+    "booljs-passport": "^0.0.2"
+  },
+  "homepage": "https://github.com/booljs/booljs-oauth2#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.2.0",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  }
 }
