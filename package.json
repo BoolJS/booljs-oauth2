@@ -1,6 +1,6 @@
 {
   "name": "booljs-oauth2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "OAuth2 middleware for bool.js",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "peerDependencies": {
     "oauth2orize": "^1.2.0",
-    "booljs-passport": "^0.0.2",
+    "booljs-passport": "0.0.x",
     "passport-oauth2-client-password": "^0.1.2"
   },
   "homepage": "https://github.com/booljs/booljs-oauth2#readme",
