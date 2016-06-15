@@ -22,8 +22,9 @@
     "url": "https://github.com/booljs/booljs-oauth2/issues"
   },
   "peerDependencies": {
+    "booljs-api": "^0.3.2",
     "oauth2orize": "^1.2.0",
-    "booljs-passport": "0.0.x",
+    "booljs-passport": "0.1.x",
     "passport-oauth2-client-password": "^0.1.2"
   },
   "homepage": "https://github.com/booljs/booljs-oauth2#readme",
