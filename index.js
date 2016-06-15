@@ -1,12 +1,15 @@
 'use strict';
 
-var API = require('bool.js/api');
+const API = require('booljs-api');
+const lib = require('./lib/methods');
 
-module.exports = new API.Middleware('booljs-oauth2', {
-    action: function (_instance) {
-        require('./lib/methods')(_instance);
-        return function (req, res, next) {
-            next();
-        };
+module.exports = class BoolJSOAuth2 extends API.Middleware {
+    constructor(){
+        super('booljs-oauth2');
     }
-});
+
+    action(_instance) {
+        lib(_instance);
+        return (req, res, next) => next();
+    }
+};
