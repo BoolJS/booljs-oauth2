@@ -4,7 +4,8 @@
   "description": "OAuth2 middleware for bool.js",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha --recursive test"
+    "pretest": "eslint **/*.js",
+    "test": "cross-env NODE_ENV=test mocha --exit --recursive test"
   },
   "repository": {
     "type": "git",
@@ -22,17 +23,30 @@
     "url": "https://github.com/booljs/booljs-oauth2/issues"
   },
   "peerDependencies": {
-    "booljs-api": "^0.3.2",
-    "oauth2orize": "^1.2.0",
-    "booljs-passport": "0.1.x",
+    "booljs.api": "0.5.x",
+    "oauth2orize": "^1.11.0",
+    "booljs.passport": "0.2.x",
     "passport-oauth2-client-password": "^0.1.2"
   },
   "homepage": "https://github.com/booljs/booljs-oauth2#readme",
   "devDependencies": {
-    "chai": "^3.4.1",
-    "chai-as-promised": "^5.2.0",
-    "mocha": "^2.3.4",
-    "supertest": "^1.1.0",
-    "supertest-as-promised": "^2.0.2"
+    "booljs.passport": "^0.2.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.2.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^4.0.1",
+    "node-uuid": "^1.4.8",
+    "oauth2orize": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-oauth2-client-password": "^0.1.2",
+    "supertest": "^3.0.0"
   }
 }
