@@ -3,8 +3,8 @@ language: node_js
 node_js:
   - lts/*
 install:
-  - npm install --no-save booljs @booljs/express @booljs/passport \
-      passport passport-http passport-http-bearer \
+  - npm install --no-save booljs @booljs/express @booljs/passport
+      passport passport-http passport-http-bearer
       oauth2orize passport-oauth2-client-password
   - npm install
 
