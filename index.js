@@ -1,6 +1,6 @@
 'use strict';
 
-const { Middleware } = require('booljs.api');
+const { Middleware } = require('@booljs/api');
 const lib = require('./lib/methods');
 
 module.exports = class BoolJSOAuth2 extends Middleware {
