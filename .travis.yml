@@ -7,3 +7,11 @@ install:
       passport passport-http passport-http-bearer \
       oauth2orize passport-oauth2-client-password
   - npm install
+
+deploy:
+  provider: npm
+  email: hola@pablodorado.com
+  api_key: $NPM_API_KEY
+  on:
+    branch: master
+    tags: true
