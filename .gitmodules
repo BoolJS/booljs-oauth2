@@ -1,4 +1,0 @@
-[submodule "example"]
-	path = example
-	url = git@github.com:booljs/booljs-boilerplate
-	branch = boilerplate-oauth2
