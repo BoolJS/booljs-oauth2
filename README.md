@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/BoolJS/booljs-oauth2.svg?branch=master)](https://travis-ci.org/BoolJS/booljs-oauth2) [![Dependencies status for booljs-oauth2](https://david-dm.org/booljs/booljs-oauth2.svg)](https://david-dm.org/booljs/booljs-oauth2) [![devDependency Status](https://david-dm.org/booljs/booljs-oauth2/dev-status.svg)](https://david-dm.org/booljs/booljs-oauth2#info=devDependencies) [![Code Climate](https://codeclimate.com/github/BoolJS/booljs-oauth2/badges/gpa.svg)](https://codeclimate.com/github/BoolJS/booljs-oauth2) [![Inline docs](http://inch-ci.org/github/booljs/booljs-oauth2.svg?branch=master)](http://inch-ci.org/github/booljs/booljs-oauth2)
 
-[![booljs-oauth2 NPM icon](https://nodei.co/npm/booljs-oauth2.png)](https://npmjs.com/packages/booljs-oauth2)
+[![booljs-oauth2 NPM icon](https://nodei.co/npm/@booljs/oauth2.png)](https://npmjs.com/package/@booljs/oauth2)
 
 [![Join the chat at https://gitter.im/BoolJS/booljs-oauth2](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BoolJS/booljs-oauth2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
