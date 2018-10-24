@@ -1,52 +1,43 @@
 {
   "name": "booljs.oauth2",
   "version": "0.2.0",
-  "description": "OAuth2 middleware for bool.js",
+  "description": "OAuth2 middleware for BoolJS",
   "main": "index.js",
   "scripts": {
-    "pretest": "eslint **/*.js",
-    "test": "cross-env NODE_ENV=test mocha --exit --recursive test"
+    "pretest": "eslint \"**/*\".js",
+    "test": "cross-env NODE_ENV=test mocha --exit test/_.js test/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/booljs/booljs-oauth2.git"
   },
   "keywords": [
-    "booljs",
-    "oauth2",
-    "middleware",
-    "api"
+    "BoolJS",
+    "OAuth2"
   ],
-  "author": "Pablo Andrés Dorado Suárez <pandres95@booljs.co>",
+  "author": "Pablo Andrés Dorado Suárez <hola@pablodorado.com>",
   "license": "GPL-3.0",
+  "homepage": "https://github.com/booljs/booljs-oauth2#readme",
   "bugs": {
     "url": "https://github.com/booljs/booljs-oauth2/issues"
   },
   "peerDependencies": {
-    "booljs.api": "0.5.x",
+    "@booljs/api": "^0.6.3",
     "oauth2orize": "^1.11.0",
-    "booljs.passport": "0.2.x",
+    "@booljs/passport": "^0.3.0",
     "passport-oauth2-client-password": "^0.1.2"
   },
-  "homepage": "https://github.com/booljs/booljs-oauth2#readme",
   "devDependencies": {
-    "booljs.passport": "^0.2.0",
-    "chai": "^4.1.2",
+    "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "cross-env": "^5.0.1",
-    "eslint": "^4.2.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "mocha": "^4.0.1",
-    "node-uuid": "^1.4.8",
-    "oauth2orize": "^1.11.0",
-    "passport": "^0.4.0",
-    "passport-http": "^0.3.0",
-    "passport-http-bearer": "^1.0.1",
-    "passport-oauth2-client-password": "^0.1.2",
-    "supertest": "^3.0.0"
+    "cross-env": "^5.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
   }
 }
